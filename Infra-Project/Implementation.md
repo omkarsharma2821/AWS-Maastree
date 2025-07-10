@@ -202,20 +202,20 @@ After a few moments, your load balancer will be **provisioned and active**.
 3. Paste it in your browser:
 
 
-> - _**Note:** You cannot access the instance through the ALB DNS name why?
-because the SG of ALB only allows to communicate within itself to one thing you can do you can add below rule to ALB SG this will work._
+> - _**Note: You cannot access the instance through the ALB DNS name why?
+because the SG of ALB only allows to communicate within itself to one thing you can do you can add below rule to ALB SG this will work.**_
 
 | Type | Protocol | Port | Source    |
 | ---- | -------- | ---- | --------- |
 | HTTP | TCP      | 80   | 0.0.0.0/0 |
 
-- _Exposing ALB to Internet is ok, but our instance also exposed to internet and hackers can directly reach the instance by the public ip, so we need to update instances SG and allow trusted traffic through ALB._
+- _**Exposing ALB to Internet is ok, but our instance also exposed to internet and hackers can directly reach the instance by the public ip, so we need to update instances SG and allow trusted traffic through ALB.**_
 
 | Type | Port | Source                                                  |
 | ---- | ---- | ------------------------------------------------------- |
 | HTTP | 80   | ALB's Security Group ID ✅ (Only allow traffic from ALB)|
 
->-  _**Important:** If using custom VPC then you need to create a new Security group for the ALB and allow traffic from every where note that ALB should be in the public subnet and anywhere rule in SG makesure to attach the SG of ALB to the server instance for security point of view_
+>-  _**Important: If using custom VPC then you need to create a new Security group for the ALB and allow traffic from every where note that ALB should be in the public subnet and anywhere rule in SG makesure to attach the SG of ALB to the server instance for security point of view**_
 
 
 ![omkar sharma](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lkp40ehlwa329ia7ev8q.png)
