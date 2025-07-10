@@ -1,4 +1,4 @@
-# 🚀 CI/CD Pipeline using GitHub Actions and AWS S3
+# CI/CD Pipeline using GitHub Actions and AWS S3
 
 In this project, you built a **Continuous Integration and Continuous Deployment (CI/CD)** pipeline to automate the deployment of a application to **Amazon S3**, using **GitHub Actions**.
 
@@ -53,7 +53,7 @@ By building this pipeline, I learned to:
 - Manage **IAM roles** and environment secrets securely
 - Structure a **CI/CD workflow** from scratch
 
-## ✅ Learning Outcomes
+## ✅ Final Thoughts
 
 This project showcases the power of **CI/CD** and how it transforms developer workflows. It’s a must-have for developers who want to:
 - Learn real-world DevOps practices
