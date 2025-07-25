@@ -1,4 +1,7 @@
-### Behind the Scenes of Microservices: Load Balancers & API Gateways
+### Ever wondered how Flipkart handles millions of orders during a sale—without crashing?
+
+The secret lies in smart Load Balancers and intelligent API Gateways that route, protect, and scale microservices like pros.
+If you're building or scaling microservices, this is the traffic control strategy you can’t afford to ignore.
 
 This document explores the use of load balancers and API gateways in a microservice architecture. It addresses the challenges of horizontal scaling, where server IPs change dynamically, and explains how load balancers distribute traffic evenly across healthy servers. Furthermore, it delves into the role of API gateways in routing requests to the appropriate microservice based on the URL or domain, enhancing the overall efficiency and manageability of the system.
 
