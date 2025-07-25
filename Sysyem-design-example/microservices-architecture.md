@@ -1,4 +1,4 @@
-### Ever wondered how Flipkart handles millions of orders during a sale—without crashing?
+### Ever wondered how Flipkart handles millions of orders during a sale without crashing?
 
 The secret lies in smart Load Balancers and intelligent API Gateways that route, protect, and scale microservices like pros.
 If you're building or scaling microservices, this is the traffic control strategy you can’t afford to ignore.
